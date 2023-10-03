@@ -1,1 +1,1 @@
-# AWS Quantum Computing Simulation
+# Quantum Computing Simulation Platform
