@@ -7,7 +7,18 @@ Dive deep into the world of quantum computing with this project, which focuses o
 In quantum computing, the realms of superposition and entanglement form its bedrock. This repository shines a spotlight on a plethora of pivotal quantum algorithms:
 
 ### Bell's Inequality
-This experimentally verifiable phenomenon underscores quantum mechanics' peculiarities. It defies classical intuitions about correlations and lays bare the non-classical essence of quantum systems, challenging local hidden variable theories.
+
+Bell's Inequality forms the cornerstone of quantum mechanics, serving as a testament to the inherently non-classical nature of quantum systems. This experimentally verifiable phenomenon challenges classical intuitions about correlations and unveils the non-local character of quantum mechanics.
+
+In this tutorial, we delve into a hands-on approach, showcasing how to simulate Bell's inequality experiment on Amazon Braket. By employing both a local simulator and a quantum processing unit (QPU), we demonstrate the violation of Bell's inequality, thereby reinforcing the quantum behavior of the system.
+
+We begin by defining three distinct circuits, each acting on two qubits, which collectively serve as the experimental setup for the inequality test. Subsequent to the circuit definition, we harness the power of Braket's `LocalSimulator` to execute the experiment in a noise-free environment. The outcomes emphatically underline the violation of Bell's inequality, thereby mirroring the quantum character of the system.
+
+For those keen on embarking on a real-world quantum experience, the tutorial also delineates the steps to run the Bell's inequality test on a QPU. Leveraging the `AwsDevice`, specifically the Oxford Quantum Circuits Lucy device, users can experience firsthand the intricacies of quantum computing. The cost metrics and task summaries included in the tutorial provide users with a transparent overview of the execution.
+
+References:
+- Bell, J. S. On the Einstein Podolsky Rosen Paradox. [Link](https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195)
+- Greenberger, Daniel M., et al. Bell’s Theorem without Inequalities. [Link](https://doi.org/10.1119/1.16243)
 
 ### Bernstein-Vazirani Algorithm
 Imagine a scenario where you need to uncover a hidden number embedded within a function. The Bernstein-Vazirani algorithm can determine this hidden number in just one step, a feat unattainable by classical algorithms.
