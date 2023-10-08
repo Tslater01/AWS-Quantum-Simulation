@@ -1,4 +1,4 @@
-# AWS Quantum Simulation with Amazon Braket SDK
+# AWS Quantum Simulation with AWS Braket SDK
 
 Dive deep into the world of quantum computing with this project, which focuses on simulating a plethora of quantum algorithms. With quantum computing emerging as a pivotal frontier in computational technology, this repository stands as a cornerstone for those venturing into the domain. Utilizing the Amazon Braket SDK and Python, we endeavor to bridge theoretical quantum mechanics with practical applications.
 
