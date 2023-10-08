@@ -4,43 +4,41 @@ Dive deep into the world of quantum computing with this project, which focuses o
 
 ## Overview of Algorithms
 
-In quantum computing, the realms of superposition and entanglement form its bedrock. This repository shines a spotlight on a plethora of pivotal quantum algorithms:
-
 ### Bell's Inequality
-This experimentally verifiable phenomenon underscores quantum mechanics' peculiarities. It defies classical intuitions about correlations and lays bare the non-classical essence of quantum systems, challenging local hidden variable theories.
+Bell's Inequality is a fundamental concept in quantum mechanics that challenges classical intuitions about correlations. It highlights the non-classical nature of quantum mechanics. This inequality serves as a litmus test to distinguish between classical and quantum systems. By running a version of Bell's inequality experiment, we can observe the violation of this inequality, demonstrating the quantum behavior of a system.
 
-### Bernstein-Vazirani Algorithm
-Imagine a scenario where you need to uncover a hidden number embedded within a function. The Bernstein-Vazirani algorithm can determine this hidden number in just one step, a feat unattainable by classical algorithms.
+### Bernstein–Vazirani Algorithm
+The Bernstein–Vazirani Algorithm is a quantum algorithm designed to efficiently find a hidden binary string. Classically, discovering such a hidden string would require multiple queries to a black-box function. However, this algorithm can reveal the entire hidden string with just one query. It's an extension of the Deutsch-Jozsa algorithm, where the function is guaranteed to be either constant or balanced.
 
 ### CHSH Inequality
-An extension of Bell's Inequality, the CHSH (Clauser, Horne, Shimony, Holt) Inequality provides a quantifiable metric to discern quantum from classical correlations. Violations of this inequality accentuate quantum mechanics' deviation from classical expectations.
+The Clauser-Horne-Shimony-Holt (CHSH) Inequality is a generalization of Bell's Inequality. It provides a framework for testing quantum entanglement and violations of local realism. The inequality compares the correlations between measurements on entangled particles with classical correlations. Violations of the CHSH Inequality indicate non-classical, quantum behavior.
 
 ### Deutsch-Jozsa Algorithm
-Certain functions either have a consistent output or a balanced set of outputs. The Deutsch-Jozsa algorithm can efficiently discern between these two categories, showcasing quantum computing's prowess over classical methods.
+The Deutsch-Jozsa Algorithm is one of the pioneering quantum algorithms. It aims to determine specific properties of functions with significantly greater efficiency than classical counterparts. Specifically, it distinguishes between constant and balanced functions. While the classical approach requires multiple function queries, this quantum algorithm provides the answer in a single query.
 
 ### Grover's Search
-In a vast unsorted database, finding a specific item is like finding a needle in a haystack. Grover's algorithm accelerates this process, reducing the search time from linear to square root in terms of the database's size.
+Grover's Search is a quantum algorithm that offers a significant speedup for searching an unsorted database or solving black-box computational problems. Classical search algorithms have a complexity of O(N), while Grover's algorithm reduces this to O(√N), making it exponentially faster in finding the desired item or solution.
 
 ### Quantum Approximate Optimization Algorithm (QAOA)
-Addressing real-world optimization problems, QAOA demonstrates the potential of quantum computers. It offers a promising approach to tackle problems like the traveling salesman and other NP-hard challenges.
+The Quantum Approximate Optimization Algorithm (QAOA) demonstrates the potential of quantum computers to address real-world combinatorial optimization problems. It combines classical and quantum processing to find approximate solutions to optimization problems more efficiently than classical algorithms.
 
 ### Quantum Circuit Born Machine (QCBM)
-Venturing into the world of quantum machine learning, the QCBM employs quantum circuits as generative models. This paradigm can potentially revolutionize data generation, classification, and more in the quantum machine learning spectrum.
+The Quantum Circuit Born Machine (QCBM) is a quantum algorithm that introduces quantum circuits as generative models. It has applications in quantum machine learning and explores the use of quantum circuits for generating data distributions. QCBM opens up new possibilities for quantum-enhanced machine learning.
 
 ### Quantum Fourier Transform
-The Fourier transform is a cornerstone in signal processing. Its quantum counterpart, the Quantum Fourier Transform, streamlines computations, forming the backbone of several quantum algorithms, including Shor's algorithm.
+The Quantum Fourier Transform (QFT) is a quantum algorithm that enables faster computation of the Fourier transform, a fundamental mathematical operation. QFT has applications in many quantum algorithms, particularly in quantum cryptography and solving certain mathematical problems.
 
 ### Quantum Phase Estimation (QPE)
-At its core, QPE is about precision. It aims to determine the phase (or eigenvalues) of a unitary operator, a task fundamental to many quantum algorithms. Its applications span from quantum mechanics to cryptography.
+Quantum Phase Estimation (QPE) is a critical quantum algorithm used to determine the eigenvalues of unitary operators. It plays a pivotal role in fields like cryptography and advanced mathematics. QPE is essential for various quantum algorithms, making it a fundamental building block of quantum computing.
 
 ### Quantum Walk
-Unlike its classical counterpart, a quantum walk exhibits unique behaviors due to superposition and interference. It holds promise in algorithmic applications, including graph traversal and certain search problems.
+A Quantum Walk is a quantum analogue of the classical random walk. It provides insights into quantum dynamics and offers solutions to specific problems more efficiently than classical methods. Quantum walks have applications in simulating physical systems and developing quantum algorithms.
 
 ### Shor's Algorithm
-Modern cryptography's bulwark often rests on the difficulty of factoring large numbers. Shor's algorithm, if executed on a sufficiently powerful quantum computer, can shatter this foundation, necessitating new cryptographic approaches.
+Shor's Algorithm is a groundbreaking quantum algorithm known for its ability to factor large numbers efficiently. Factoring large numbers is a classically hard problem and forms the basis of modern encryption methods. Shor's algorithm has significant implications for cryptography and poses a potential threat to classical encryption systems.
 
 ### Simon's Algorithm
-Within a black-box function lies a hidden binary string. Simon's algorithm can uncover this concealed string with a notable efficiency advantage over classical algorithms.
+Simon's Algorithm is designed to identify a certain hidden property of functions with a speedup over classical solutions. It's a prime example of how quantum algorithms can outperform classical ones in specific tasks. Simon's Algorithm has applications in various areas, including cryptography and database search.
 
 ## Tools and Techniques
 
