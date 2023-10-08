@@ -1,14 +1,14 @@
 # AWS Quantum Simulation with AWS Braket SDK
 
-Dive deep into the world of quantum computing with this project, which focuses on simulating a plethora of quantum algorithms. With quantum computing emerging as a pivotal frontier in computational technology, this repository stands as a cornerstone for those venturing into the domain. Utilizing the Amazon Braket SDK and Python, we endeavor to bridge theoretical quantum mechanics with practical applications.
+This project focuses on simulating a plethora of quantum algorithms. With quantum computing emerging as a pivotal frontier in computational technology, this repository is a cornerstone for those venturing into the domain. Utilizing the Amazon Braket SDK and Python, we endeavor to bridge theoretical quantum mechanics with practical applications. This repository aims to utilize preexisting algorithms for research and understanding of code, quantum algorithms, and their real-world implementations.
 
 ## Overview of Algorithms
 
 ### Bell's Inequality
-Bell's Inequality is a fundamental concept in quantum mechanics that challenges classical intuitions about correlations. It highlights the non-classical nature of quantum mechanics. This inequality serves as a litmus test to distinguish between classical and quantum systems. By running a version of Bell's inequality experiment, we can observe the violation of this inequality, demonstrating the quantum behavior of a system.
+Bell's Inequality is a fundamental quantum mechanics concept that challenges classical correlation intuitions. It highlights the non-classical nature of quantum mechanics. This inequality is a litmus test to distinguish between classical and quantum systems. By running a version of Bell's inequality experiment, we can observe this inequality's violation, demonstrating a system's quantum behavior.
 
 ### Bernstein–Vazirani Algorithm
-The Bernstein–Vazirani Algorithm is a quantum algorithm designed to efficiently find a hidden binary string. Classically, discovering such a hidden string would require multiple queries to a black-box function. However, this algorithm can reveal the entire hidden string with just one query. It's an extension of the Deutsch-Jozsa algorithm, where the function is guaranteed to be either constant or balanced.
+The Bernstein–Vazirani Algorithm is a quantum algorithm designed to find a hidden binary string efficiently. Classically, discovering such a hidden string would require multiple queries to a black-box function. However, this algorithm can reveal the hidden string with just one query. It's an extension of the Deutsch-Jozsa algorithm, where the function is guaranteed constant or balanced.
 
 ### CHSH Inequality
 The Clauser-Horne-Shimony-Holt (CHSH) Inequality is a generalization of Bell's Inequality. It provides a framework for testing quantum entanglement and violations of local realism. The inequality compares the correlations between measurements on entangled particles with classical correlations. Violations of the CHSH Inequality indicate non-classical, quantum behavior.
@@ -17,7 +17,7 @@ The Clauser-Horne-Shimony-Holt (CHSH) Inequality is a generalization of Bell's I
 The Deutsch-Jozsa Algorithm is one of the pioneering quantum algorithms. It aims to determine specific properties of functions with significantly greater efficiency than classical counterparts. Specifically, it distinguishes between constant and balanced functions. While the classical approach requires multiple function queries, this quantum algorithm provides the answer in a single query.
 
 ### Grover's Search
-Grover's Search is a quantum algorithm that offers a significant speedup for searching an unsorted database or solving black-box computational problems. Classical search algorithms have a complexity of O(N), while Grover's algorithm reduces this to O(√N), making it exponentially faster in finding the desired item or solution.
+Grover's Search is a quantum algorithm that offers a significant speedup for searching an unsorted database or solving black-box computational problems. Classical search algorithms have a complexity of O(N), while Grover's algorithm reduces this to O(√N), making finding the desired item or solution exponentially faster.
 
 ### Quantum Approximate Optimization Algorithm (QAOA)
 The Quantum Approximate Optimization Algorithm (QAOA) demonstrates the potential of quantum computers to address real-world combinatorial optimization problems. It combines classical and quantum processing to find approximate solutions to optimization problems more efficiently than classical algorithms.
@@ -32,13 +32,13 @@ The Quantum Fourier Transform (QFT) is a quantum algorithm that enables faster c
 Quantum Phase Estimation (QPE) is a critical quantum algorithm used to determine the eigenvalues of unitary operators. It plays a pivotal role in fields like cryptography and advanced mathematics. QPE is essential for various quantum algorithms, making it a fundamental building block of quantum computing.
 
 ### Quantum Walk
-A Quantum Walk is a quantum analogue of the classical random walk. It provides insights into quantum dynamics and offers solutions to specific problems more efficiently than classical methods. Quantum walks have applications in simulating physical systems and developing quantum algorithms.
+A Quantum Walk is a quantum analog of the classical random walk. It provides insights into quantum dynamics and offers solutions to specific problems more efficiently than classical methods. Quantum walks have applications in simulating physical systems and developing quantum algorithms.
 
 ### Shor's Algorithm
 Shor's Algorithm is a groundbreaking quantum algorithm known for its ability to factor large numbers efficiently. Factoring large numbers is a classically hard problem and forms the basis of modern encryption methods. Shor's algorithm has significant implications for cryptography and poses a potential threat to classical encryption systems.
 
 ### Simon's Algorithm
-Simon's Algorithm is designed to identify a certain hidden property of functions with a speedup over classical solutions. It's a prime example of how quantum algorithms can outperform classical ones in specific tasks. Simon's Algorithm has applications in various areas, including cryptography and database search.
+Simon's Algorithm is designed to identify a certain hidden property of functions with a speedup over classical solutions. It's a prime example of how quantum algorithms outperform classical ones in specific tasks. Simon's Algorithm has applications in various areas, including cryptography and database search.
 
 ## Tools and Techniques
 
@@ -46,7 +46,7 @@ Simon's Algorithm is designed to identify a certain hidden property of functions
 
 **Jupyter Notebooks**: An open-source tool that provides an interactive environment for writing and executing code. Each algorithm in this repository is presented as a Jupyter Notebook, ensuring an intuitive blend of code, visualizations, and narrative.
 
-**Amazon SageMaker**: A fully managed service that provides developers and data scientists with the ability to build, train, and deploy machine learning models quickly. Its integration aids in scaling quantum simulations and incorporating ML techniques seamlessly.
+**Amazon SageMaker**: A fully managed service that allows developers and data scientists to build, train, and deploy machine learning models quickly. Its integration aids in scaling quantum simulations and incorporating ML techniques seamlessly.
 
 **Dynamic Simulations**: Ensuring our content remains at the pinnacle of quantum research, our simulations echo the latest findings and methodologies in the quantum realm.
 
