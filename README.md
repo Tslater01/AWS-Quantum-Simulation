@@ -5,7 +5,7 @@ This project focuses on simulating a plethora of quantum algorithms. Quantum alg
 ## Overview of Algorithms
 
 ### Bell's Inequality
-Bell's Inequality is a fundamental quantum mechanics concept that challenges classical correlation intuitions. It highlights the non-classical nature of quantum mechanics. This inequality is a litmus test to distinguish between classical and quantum systems. By running a version of Bell's inequality experiment, we can observe this inequality's violation, demonstrating a system's quantum behavior
+Bell's Inequality is a fundamental quantum mechanics concept that challenges classical correlation intuitions. It highlights the non-classical nature of quantum mechanics. This inequality is a litmus test to distinguish between classical and quantum systems. By running a version of Bell's inequality experiment, we can observe this inequality's violation, demonstrating a system's quantum behavior.
 
 ### Bernstein–Vazirani Algorithm
 The Bernstein–Vazirani Algorithm is a quantum algorithm designed to find a hidden binary string efficiently. Classically, discovering such a hidden string would require multiple queries to a black-box function. However, this algorithm can reveal the hidden string with just one query. It's an extension of the Deutsch-Jozsa algorithm, where the function is guaranteed constant or balanced.
