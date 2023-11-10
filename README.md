@@ -1,6 +1,6 @@
 # AWS Quantum Simulation with Amazon Braket SDK
 
-This project focuses on simulating a plethora of quantum algorithms. Quantum algorithms are a class of computational procedures designed to be run on quantum computers, which leverage the principles of quantum mechanics to perform certain calculations much faster than classical computers. With quantum computing emerging as a pivotal frontier in computational technology, this repository is a cornerstone for those venturing into the domain. Utilizing the Amazon Braket SDK and Python, developers can endeavor to bridge theoretical quantum mechanics with practical applications. This repository aims to utilize preexisting algorithms for research and understanding Python programming, quantum algorithms, and their real-world implementations.
+This project focuses on simulating a plethora of quantum algorithms. Quantum algorithms are a class of computational procedures designed to be run on quantum computers, which leverage the principles of quantum mechanics to perform certain calculations much faster than classical computers. With quantum computing emerging as a pivotal frontier in computational technology, this repository is a cornerstone for those venturing into the domain. Utilizing the Amazon Braket SDK and Python, developers can endeavor to bridge theoretical quantum mechanics with practical applications. This repository aims to utilize preexisting algorithms for research and understanding Python programming, quantum algorithms, and their real-world implementations
 
 ## Overview of Algorithms
 
